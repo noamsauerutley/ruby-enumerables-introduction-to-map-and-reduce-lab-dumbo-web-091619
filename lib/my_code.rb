@@ -20,7 +20,7 @@ def reduce_to_total(array)
 end
 
 def reduce_to_all_true(array)
-  array.reduce(|sum, i|)
+  array.reduce(:+)
 end
 
 def reduce_to_any_true(array)
