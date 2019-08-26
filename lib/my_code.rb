@@ -4,7 +4,7 @@ def map_to_negativize(array)
 end
 
 def map_to_no_change(array)
-  array.map
+  array.map!
 end
 
 def map_to_double(array)
