@@ -15,8 +15,8 @@ def map_to_square(array)
   array.map!{|i| i*i}
 end
 
-def reduce_to_total(array)
-  array.reduce(){|sum, i| sum + i}
+def reduce_to_total(array, starting_point=0)
+  array.reduce(starting_point){|sum, i| sum + i}
 end
 
 def reduce_to_all_true(array)
