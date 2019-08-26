@@ -8,11 +8,11 @@ def map_to_no_change(array)
 end
 
 def map_to_double(array)
-
+  array.map!{|i| i*2}
 end
 
 def map_to_square(array)
-
+  array.map!{|i| i}
 end
 
 def reduce_to_total(array)
