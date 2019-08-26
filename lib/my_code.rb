@@ -16,11 +16,11 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array)
-  array.reduce()
+  array.reduce{|sum, num| sum + num}
 end
 
 def reduce_to_all_true(array)
-  array.reduce{|sum, num| sum + num}
+  array.reduce{||}
 end
 
 def reduce_to_any_true(array)
