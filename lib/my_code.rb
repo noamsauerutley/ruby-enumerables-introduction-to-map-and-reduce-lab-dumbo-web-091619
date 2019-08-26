@@ -20,9 +20,9 @@ def reduce_to_total(array)
 end
 
 def reduce_to_all_true(array)
-  array.reduce(:+)
+  array.reduce{|sum, num| sum + num}
 end
 
 def reduce_to_any_true(array)
-  array.reduce()
+  array.reduce{||}
 end
