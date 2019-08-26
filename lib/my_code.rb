@@ -1,10 +1,10 @@
 # My Code here....
 def map_to_negativize(array)
-array.map!{|i| -i}
+  array.map!{|i| -i}
 end
 
 def map_to_no_change()
-
+  array.map!{|i| i}
 end
 
 def map_to_double(array)
